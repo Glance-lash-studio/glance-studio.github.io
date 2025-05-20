@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Студия Glance — Карина</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background: #fff7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffe0e6;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #ffc0cb;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #cc3366;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .services, .rent, .training {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+
+    .review {
+      background: #fff0f5;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #ffe0e6;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #cc3366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Glance Studio</h1>
+  <p>Красота, уверенность и профессионализм — каждый день с Кариной</p>
+</header>
+
+<nav>
+  <a href="#about">Обо мне</a>
+  <a href="#services">Услуги</a>
+  <a href="#portfolio">Портфолио</a>
+  <a href="#reviews">Отзывы</a>
+  <a href="#training">Обучение</a>
+  <a href="#rent">Аренда</a>
+  <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+  <h2>Обо мне</h2>
+  <p>Привет! Меня зовут Карина. Я — мастер по наращиванию ресниц, перманентному макияжу бровей и ламинированию. В профессии более 6 лет. У меня своя студия Glance, где мы не просто делаем красоту, а создаём уверенность. Также я преподаю и сдаю рабочие места мастерам. Добро пожаловать!</p>
+</section>
+
+<section id="services">
+  <h2>Услуги</h2>
+  <div class="services">
+    <ul>
+      <li>Наращивание ресниц: классика, 2D-6D — от 2500 ₽</li>
+      <li>Ламинирование ресниц и бровей — от 1800 ₽</li>
+      <li>Перманентный макияж бровей — от 4500 ₽</li>
+    </ul>
+    <a class="btn" href="#contact">Записаться</a>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Портфолио</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250x300?text=Работа+1" alt="Работа 1">
+    <img src="https://via.placeholder.com/250x300?text=Работа+2" alt="Работа 2">
+    <img src="https://via.placeholder.com/250x300?text=Работа+3" alt="Работа 3">
+  </div>
+</section>
+
+<section id="reviews">
+  <h2>Отзывы</h2>
+  <div class="review">Карина — волшебница! Реснички просто шик! — Мария</div>
+  <div class="review">Потрясающая атмосфера и очень качественная работа! — Елена</div>
+  <div class="review">Прошла обучение у Карины — уверена в себе и уже принимаю клиентов! — Виктория</div>
+</section>
+
+<section id="training">
+  <h2>Обучение</h2>
+  <div class="training">
+    <p>Провожу курсы по наращиванию ресниц: от базового до продвинутого. Теория, практика, работа с моделями и полное сопровождение после. Запишись и измени свою профессию!</p>
+    <a class="btn" href="#contact">Записаться на курс</a>
+  </div>
+</section>
+
+<section id="rent">
+  <h2>Аренда рабочих мест</h2>
+  <div class="rent">
+    <p>Сдаю уютные кушетки в аренду в студии Glance. Идеально для начинающих и опытных мастеров. Почасовая и посуточная аренда. Центр города, всё необходимое уже есть.</p>
+    <a class="btn" href="#contact">Уточнить детали</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Контакты и запись</h2>
+  <p>Instagram: <a href="https://instagram.com/" target="_blank">@glance.studio</a></p>
+  <p>Телефон: +7 (900) 000-00-00</p>
+  <p>Адрес: г. Твой город, ул. Прекрасная, 10</p>
+  <a class="btn" href="https://t.me/" target="_blank">Записаться в Telegram</a>
+</section>
+
+<footer>
+  &copy; 2025 Glance Studio — Карина. Все права защищены.
+</footer>
+
+</body>
+</html>
